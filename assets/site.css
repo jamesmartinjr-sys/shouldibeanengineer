@@ -77,3 +77,19 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
  nav a{margin-left:12px}
  .btn{flex:1 1 140px;text-align:center}
 }
+
+.disc{font-size:13px;color:#e6f1fc;opacity:.92;margin:12px 0 0}
+.go{background:var(--pale);min-height:100vh}
+.go .wrap{max-width:560px;padding-top:22px;padding-bottom:36px}
+.go .head{display:flex;gap:16px;align-items:center;margin-bottom:18px}
+.go .head img{width:104px;border-radius:4px;box-shadow:0 8px 20px rgba(10,25,60,.3);flex:0 0 auto}
+.go h1{font-size:27px;color:var(--navy);margin:0 0 4px}
+.go .head p{margin:0;font-size:15px;color:var(--muted)}
+.go h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:22px 0 8px}
+.go a.row{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:8px;text-decoration:none;color:var(--ink);font-weight:700;font-size:17px}
+.go a.row small{display:block;font-weight:400;font-size:14px;color:var(--muted);margin-top:2px}
+.go a.row b.go-arrow{color:var(--blue);font-size:20px;flex:0 0 auto}
+.go a.row.buy{background:var(--gold);border-color:var(--gold)}
+.go a.row.buy small{color:#4a3c12}
+.go .fine{font-size:13px;color:var(--muted);margin:6px 2px 0}
+.go .foot{font-size:13px;color:var(--muted);margin-top:26px;text-align:center}
